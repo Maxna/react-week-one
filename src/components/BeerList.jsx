@@ -7,18 +7,18 @@ function BeerList(){
   };
 
   const green = {
-    backgroundColor: 'green',
-    width: '318px',
+    backgroundColor: '#28a745',
+    width: '300px',
   };
 
   const yellow = {
-    backgroundColor: 'yellow',
-    width: '318px',
+    backgroundColor: '#ffc108',
+    width: '300px',
   };
 
   const blue = {
-    backgroundColor: 'blue',
-    width: '318px',
+    backgroundColor: '#17a2b8',
+    width: '300px',
   };
 
   return (

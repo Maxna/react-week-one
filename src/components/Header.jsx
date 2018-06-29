@@ -9,8 +9,8 @@ function Header(){
     backgroundColor: 'brown',
     borderStyle: 'double',
     borderRadius: '50%',
-    width: '300px',
-    padding: '15px',
+    width: '270px',
+    padding: '12px',
     marginBottom: '8px'
   };
 

@@ -6,14 +6,6 @@ import BeerList from './BeerList';
 
 
 function App(){
-  const main = {
-    display: 'grid',
-    gridTemplateColumns: '1fr 1fr 1fr',
-    gridGap: '10px',
-    padding: '10px',
-  };
-
-
 
   return (
     <div>

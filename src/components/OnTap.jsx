@@ -5,15 +5,15 @@ function OnTap(props){
   const beer = {
     border: 'thick ridge navy',
     marginBottom: '8px',
-    width: '300px',
-    fontSize: '25px',
+    width: '285px',
+    fontSize: '24px',
     fontFamily: 'comic',
     fontWeight: 'bold',
-    paddingLeft: '8px',
+    paddingLeft: '5px',
   };
 
   const p = {
-    margin: '8px',
+    margin: '5px',
   };
 
   const flex = {
