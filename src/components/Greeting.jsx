@@ -3,7 +3,10 @@ import React from 'react';
 function Greeting(){
   const greeting = {
     textAlign: 'center',
-    fontFamily: 'sans-serif',
+    fontFamily: 'comic, sans-serif',
+    fontWeight: '500',
+    marginTop: '0px',
+    fontSize: '40px',
   };
 
   return (

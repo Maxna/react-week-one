@@ -2,18 +2,21 @@ import React from 'react';
 
 function Header(){
   const header = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    fontFamily: 'sans-serif',
-    padding: '0 25px',
-    minWidth: '625px',
-    color: '#333',
+    textAlign: 'center',
+    fontFamily: 'comic, sans-serif',
+    fontWeight: '500',
+    fontSize: '30px',
+    backgroundColor: 'brown',
+    borderStyle: 'double',
+    borderRadius: '50%',
+    width: '300px',
+    padding: '15px',
+    marginBottom: '8px'
   };
 
   return (
     <div>
-      <h1 style={header}>Brewery Bro's</h1>
+      <h2 style={header}>Brewery Bro's</h2>
     </div>
   );
 }

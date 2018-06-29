@@ -19,7 +19,7 @@ function App(){
     <div>
       <Greeting/>
       <Header/>
-      <div style={main}>
+      <div>
         <Switch>
           <Route exact path='/' component={BeerList} />
         </Switch>
