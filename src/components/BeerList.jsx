@@ -4,6 +4,7 @@ import OnTap from './OnTap';
 
 function BeerList(){
   const beerList = {
+    padding: '1px',
   };
 
   const green = {
@@ -39,7 +40,7 @@ function BeerList(){
         <OnTap
           title="Yuengling --- Lager"
           msg="$2.50 Pints: 124"
-          alc="ABV: 2.5"/>
+          alc="ABV: 2.5%"/>
       </div>
     </div>
   );
