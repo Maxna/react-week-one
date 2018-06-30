@@ -1,40 +1,59 @@
 # React-Week-One
 
+This is a copy of an AngularJS brewery website from the Javascript module of the Epicodus . This one was made with ReactJS with the intention of it looking the same, but without having any functionality until a later date.
 
+For comparison:
 
-### Visuals
+[React Version](https://github.com/react-week-one)
+
+[Angular Version](https://github.com/Maxna/brewery)
+
+### Component Tree
 
 ![Component Tree](src/assets/images/component-tree.png)
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine.
 
-### Prerequisites
+### Set Up
 
-What things you need to install the software and how to install them
+To set the project up:
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+First clone this repository by copying this link.
 
 ```
-Give the example
-```
-
-And repeat
+  https://github.com/Maxna/react-week-one.git
 
 ```
-until finished
+
+Then open the terminal and navigate the the desktop. Clone the project down by using the following command.
+
+```
+$ cd desktop
+$ git clone https://github.com/Maxna/react-week-one.git
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Next, in the terminal navigate to the project folder, and then open it with the Atom editor. Use these commands.
+
+```
+$ cd react-week-one
+$ atom .
+```
+
+Then install the npm dependencies.
+
+```
+$ npm install
+```
+
+Finally, open the app in the web browser.
+
+```
+$ npm run start
+```
+
+This app is not interactive yet.
 
 ## Built With
 
@@ -52,7 +71,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Author
 
-* **Matt Nardoni** -- [react-brewery](https://github.com/react-week-one)
+* **Matt Nardoni** -*Main Contributor*- [React Brewery](https://github.com/react-week-one)
 
 ## License
 

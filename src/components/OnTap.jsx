@@ -38,9 +38,9 @@ function OnTap(props){
 }
 
 OnTap.propTypes = {
-  title: PropTypes.string,
-  msg: PropTypes.string,
-  alc: PropTypes.string
+  title: PropTypes.string.isRequired,
+  msg: PropTypes.string.isRequired,
+  alc: PropTypes.string.isRequired
 };
 
 export default OnTap;
