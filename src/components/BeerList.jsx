@@ -1,22 +1,9 @@
 import React from 'react';
-import OnTap from './OnTap';
+import Beer from './Beer';
+import PropTypes from 'prop-types';
 
 
-class BeerList extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      masterBeerList: []
-    };
-    this.handleSellingBeer = this.handleSellingBeer.bind(this);
-  }
-
-  handleSellingBeer(soldBeer){
-
-  }
-
-render(){
+function BeerList(props){
   return (
     <div>
       <style jsx>{`
@@ -38,29 +25,52 @@ render(){
           background-color: #17a2b8;
           width: 300px;
         }
+
+        #newBeer {
+          background-color: white;
+          width: 300px;
+        }
             `}</style>
-          <div id="green">
-        <OnTap
-          title="Guinness --- Stout"
-          msg="$5.00 Pints: 124"
-          alc="ABV: 3.8%"/>
+      <div id="green">
+        <Beer
+          brand="Guinness"
+          brew="Stout"
+          price="5.00"
+          pintCount="124"
+          abv="ABV: 3.8"/>
       </div>
       <div id='yellow'>
-        <OnTap
-          title="Newcastle --- Ale"
-          msg="$4.00 Pints: 124"
-          alc="ABV: 4.0%"/>
+        <Beer
+          brand="Newcastle"
+          brew="Ale"
+          price="4.00"
+          pintCount="124"
+          abv="ABV: 4.0"/>
       </div>
       <div id='blue'>
-        <OnTap
-          title="Yuengling --- Lager"
-          msg="$2.50 Pints: 124"
-          alc="ABV: 2.5%"/>
+        <Beer
+          brand="Yuengling"
+          brew="Lager"
+          price="2.50"
+          pintCount="124"
+          abv="ABV: 2.5"/>
+      </div>
+      <div id='newBeer'>
+        {props.beerList.map((beer) =>
+          <Beer brand={beer.brand}
+            brew={beer.brew}
+            price={beer.price}
+            pintCount={beer.pintCount}
+            abv={beer.abv}
+            key={beer.id}/>
+        )}
       </div>
     </div>
   );
 }
 
-}
+BeerList.propTypes={
+  beerList: PropTypes.array
+};
 
 export default BeerList;

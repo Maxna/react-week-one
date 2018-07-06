@@ -1,22 +1,33 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header(){
-  const header = {
-    textAlign: 'center',
-    fontFamily: 'comic, sans-serif',
-    fontWeight: '500',
-    fontSize: '30px',
-    backgroundColor: 'brown',
-    borderStyle: 'double',
-    borderRadius: '50%',
-    width: '270px',
-    padding: '12px',
-    marginBottom: '8px'
-  };
 
   return (
     <div>
-      <h2 style={header}>Brewery Bro's</h2>
+      <style jsx>{`
+          h2 {
+            text-align: center;
+            font-family: comic sans-serif;
+            font-weight: 500;
+            font-size: 30px;
+            background-color: brown;
+            border-style: double;
+            border-radius: 50%;
+            width: 270px;
+            padding: 12px;
+            margin-bottom: 8px;
+          }
+
+          #links {
+            text-align: center;
+            font-size: 20px;
+          }
+          `}</style>
+      <h2>Brewery Bro's</h2>
+      <div id='links'>
+        <Link to="/">Home</Link> | <Link to="/newbeer">Add Brew</Link>
+      </div>
     </div>
   );
 }
