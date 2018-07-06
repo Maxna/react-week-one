@@ -12,7 +12,7 @@ For comparison:
 
 ### Component Tree
 
-![Component Tree](src/assets/images/component-tree.png)
+![Component Tree](src/assets/images/new-tree.png)
 
 ## Getting Started
 
