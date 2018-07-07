@@ -1,8 +1,8 @@
-# React-Week-One
+# React-Week-Two
 
-This is a copy of an AngularJS brewery website from the Javascript module of the Epicodus . This one was made with ReactJS with the intention of it looking the same, but without having any functionality until a later date.
+This is a copy of an AngularJS brewery website from the Javascript module of the Epicodus . This one was made with ReactJS with the intention of it looking the same, with the functionality of adding a new beer item to the list.
 
-Without using any functionality, the development process in React seemed much smoother. The looping of data was still simple and the client side routing was straightforward. Angular development forced an attention to detail but allowed an easy way to loop through data, but the component interface was messy and the routing too syntax heavy.
+With limited functionality the development process in React still seemed much smoother. The looping of data was still simple and the client side routing was straightforward. Angular development forced an attention to detail but allowed an easy way to loop through data, but the component interface was messy and the routing too syntax heavy.
 
 For comparison:
 
@@ -12,7 +12,7 @@ For comparison:
 
 ### Component Tree
 
-![Component Tree](src/assets/images/new-tree.png)
+![Component Tree](src/assets/images/tree-final.png)
 
 ## Getting Started
 

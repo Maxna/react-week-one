@@ -8,6 +8,7 @@ function Beer(props){
       <style jsx>{`
         #beer {
           border: thick ridge navy;
+          background-color: white;
           marginBottom: 8px;
           width: 285px;
           fontSize: 24px;
@@ -30,15 +31,15 @@ function Beer(props){
         };
 
             `}</style>
-    <div id='beer'>
-      <p>{props.brand} --- {props.brew}</p>
-      <p>${props.price} Pints: {props.pintCount}</p>
-      <div id='flex'>
-        <p>{props.abv}%</p>
-        <button>Sell a Pint!</button>
+      <div id='beer'>
+        <p>{props.brand} --- {props.brew}</p>
+        <p>${props.price} Pints: {props.pintCount}</p>
+        <div id='flex'>
+          <p>{props.abv}%</p>
+          <button>Sell a Pint!</button>
+        </div>
       </div>
     </div>
-  </div>
   );
 }
 

@@ -11,25 +11,6 @@ function BeerList(props){
           padding: 1px;
         }
 
-        #green {
-          background-color: #28a745;
-          width: 300px;
-        }
-
-        #yellow {
-          background-color: #ffc108;
-          width: 300px;
-        }
-
-        #blue {
-          background-color: #17a2b8;
-          width: 300px;
-        }
-
-        #newBeer {
-          background-color: white;
-          width: 300px;
-        }
             `}</style>
       <div id="green">
         <Beer
